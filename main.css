@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+}
+.temp-back {
+  width: 100%;
+  opacity: 0.4;
+  position: absolute;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+.nav .logo {
+  display: flex;
+  align-items: center;
+}
+.nav .logo .logo-image {
+  background-image: url('img/logo.png');
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: contain;
+}
+.nav .logo .logo-text {
+  font-size: 30px;
+  margin-top: -8px;
+}
+.nav .menu {
+  display: flex;
+  align-items: center;
+}
+.nav .menu .menu-item {
+  padding: 0 10px;
+}
+.join-us-container {
+  height: 850px;
+  width: 100%;
+  margin-top: -70px;
+}
+.latest-courses {
+  display: flex;
+  flex-direction: column;
+  width: 920px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.latest-courses .latest-courses-container {
+  display: flex;
+  justify-content: space-between;
+}
+.latest-courses .latest-courses-container .latest-course-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 290px;
+  height: 600px;
+}
